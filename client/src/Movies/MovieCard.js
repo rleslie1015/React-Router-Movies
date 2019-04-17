@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 function MovieCard({ movie }) {
   const { title, director, metascore, stars, id } = movie;
   return (
-    <NavLink to={`/movies/${id}`}>
+    <NavLink to={`/movies/${id}`} style={{color:"red"}} >
       <div className="movie-card">
         <h2>{title}</h2>
         <div className="movie-director">
@@ -24,5 +24,6 @@ function MovieCard({ movie }) {
     </NavLink>
   );
 }
+
 
 export default MovieCard;
