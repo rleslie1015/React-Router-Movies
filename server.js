@@ -13,7 +13,7 @@ const movies = [
 		title: 'The Godfather',
 		director: 'Francis Ford Coppola',
 		metascore: 100,
-		stars: ['Marlon Brando', 'Al Pacino', 'Robert Duvall'],
+		stars: ['Marlon Brando', 'Al Pacino', 'Robert Duvall', "robert Di" ],
 	},
 	{
 		id: 1,
